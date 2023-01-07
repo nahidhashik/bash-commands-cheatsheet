@@ -65,6 +65,7 @@ Working with files means modifying them in any capacity. Renaming, moving, creat
 3. Documents Newfile Pictures Videos
 
 **rm**
+
 rm is the command for removing files. Similar to rmdir, this action cannot be undone so careful use is recommended.
 
 1. user@localhost:~$ rm Newfile
