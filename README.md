@@ -116,6 +116,34 @@ mv is a helpful command that can also be used for renaming files. If we specify 
 
 - compgen is a handy command when you need to reference all available commands, aliases, and functions.
 
+**head — Read the start of a file**
+
+- By default, the head command displays the first 10 lines of a file. There are times when you may need to quickly look at a few lines in a file and head allows you to do that. A typical example of when you’d want to use head is when you need to analyze logs or text files that change frequently.
+
+**tail — Read the end of a file**
+
+- By default, the tail command displays the last 10 lines of a file. There are times when you may need to quickly look at a few lines in a file and tail allows you to do that. A typical example of when you’d want to use tail is when you need to analyze logs or text files that change frequently.
+
+**exit — Exit out of a directory**
+
+- The exit command will close a terminal window, end the execution of a shell script, or log you out of an SSH remote access session.
+
+**history — list your most recent commands**
+
+- An important command when you need to quickly identify past commands that you’ve used.
+
+**clear — Clear your terminal window**
+
+This command is used to clear all previous commands and output from consoles and terminal windows. This keeps your terminal clean and removes the clutter so you can focus on subsequent commands and their output
+
+**cp — copy files and directories**
+
+- Use this command when you need to back up your files.
+
+
+
+
+
 
 # Conclusion
 
