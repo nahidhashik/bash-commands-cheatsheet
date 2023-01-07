@@ -37,6 +37,7 @@
 4. user@localhost:~$ cd ..
 5. user@localhost:~$ ls
 6. Documents Pictures Videos
+
 In the above example, we used a shortcut .. to change back to the parent directory. This can be used several times in a single path to go up the hierarchy of parent directories. Of course, you can provide the entire path to the directory as well.
 
 
