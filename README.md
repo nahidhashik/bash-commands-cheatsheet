@@ -40,6 +40,22 @@
 
 In the above example, we used a shortcut .. to change back to the parent directory. This can be used several times in a single path to go up the hierarchy of parent directories. Of course, you can provide the entire path to the directory as well.
 
+# Bash Commands for File Modifications
+Working with files means modifying them in any capacity. Renaming, moving, creating, and deleting new files are the basic operations when working with files. Let's have a look at these operations using bash in this section.
+
+**mkdir**
+- mkdir is a command short for Make Directory. It creates a new directory with the specified name.
+
+1. user@localhost:~$ mkdir BashTutorial
+2. user@localhost:~$ ls
+3. BashTutorial Documents Pictures Videos
+
+**rmdir**
+- rmdir is a command for Remove Directory. It removes the specified directory. It should be noted that the directory to be removed must be empty or the terminal will throw an error.
+
+1. user@localhost:~$ mkdir BashTutorial
+2. user@localhost:~$ ls
+3. BashTutorial Documents Pictures Videos
 
 
 
