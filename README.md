@@ -29,5 +29,17 @@
 1. user@localhost:~$ ls -a
 2. Documents Pictures .temp_file Videos .webpage
 
+**cd**
+- cd is a command to change directory. By providing a path along with this command, we can change the current directory to a different directory. This command does not give an output and only changes the directory. You can later use ls to display the directory contents to check that the current directory has been changed.
+1. user@localhost:~$ cd Documents
+2. user@localhost:~$ ls
+3. file1.txt 
+4. user@localhost:~$ cd ..
+5. user@localhost:~$ ls
+6. Documents Pictures Videos
+In the above example, we used a shortcut .. to change back to the parent directory. This can be used several times in a single path to go up the hierarchy of parent directories. Of course, you can provide the entire path to the directory as well.
+
+
+
 
 
