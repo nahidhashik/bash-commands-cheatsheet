@@ -21,7 +21,13 @@
 
 **ls**
 - ls is a command short for list. It lists down the contents of a directory. By default, it lists the contents of the current working directory. From the example introduced at the start of the section, if we list down the contents of our current directory we get
+1. user@localhost:~$ ls
+2. Documents Pictures Videos
+
+**ls -a**
+- This option enables us to view hidden files. In the code block below, the files with a preceding dot ., are hidden files. These hidden files are not visible on GUI unless you enable the option to view them.
 1. user@localhost:~$ ls -a
 2. Documents Pictures .temp_file Videos .webpage
+
 
 
