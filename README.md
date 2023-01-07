@@ -80,6 +80,27 @@ rm is the command for removing files. Similar to rmdir, this action cannot be un
 4. user@localhost:~$ ls
 5. Documents Pictures 
 
+**mv**
+- mv is a command used to move a file or a directory. We can specify this using the syntax below, where source and destination are paths to the file or directory that needs to be moved.
+
+1. user@localhost:~$ ls
+2. Documents Pictures Videos example1
+3. user@localhost:~$ mkdir NewFolder
+4. user@localhost:~$ mv example1 NewFolder/
+5. user@localhost:~$ ls
+6. Documents NewFolder Pictures Videos
+7. user@localhost:~$ cd NewFolder
+8. user@localhost:~$ ls
+9. example1
+
+mv is a helpful command that can also be used for renaming files. If we specify the destination path the same as the source path, but with a different name, then we can rename the file.
+
+1. user@localhost:~$ ls
+2. Documents Pictures example1
+3. user@localhost:~$ mv example1 linux_example
+4. user@localhost:~$ ls
+5. Documents Pictures linux_example
+
 
 
 
