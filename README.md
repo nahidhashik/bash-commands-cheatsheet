@@ -14,3 +14,8 @@
 3. user@localhost:~$ echo Hello World!
 4. Hello World!
 
+**pwd**
+- pwd is a command that stands for Print Working Directory. It displays your current working directory as output.
+1. user@localhost:~$ pwd
+2. /home/user
+
