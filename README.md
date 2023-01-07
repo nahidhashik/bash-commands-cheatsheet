@@ -57,6 +57,13 @@ Working with files means modifying them in any capacity. Renaming, moving, creat
 2. user@localhost:~$ ls
 3. BashTutorial Documents Pictures Videos
 
+**touch**
+- touch is a command used for creating blank files. This command only creates a blank file and does not add anything to it.
+
+1. user@localhost:~$ touch Newfile
+2. user@localhost:~$ ls
+3. Documents Newfile Pictures Videos
+
 
 
 
