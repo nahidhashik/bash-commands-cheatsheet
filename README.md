@@ -102,6 +102,8 @@ mv is a helpful command that can also be used for renaming files. If we specify 
 4. user@localhost:~$ ls
 5. Documents Pictures linux_example
 
+# Conclusion
+
 
 
 
