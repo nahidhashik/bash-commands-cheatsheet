@@ -102,6 +102,21 @@ mv is a helpful command that can also be used for renaming files. If we specify 
 4. user@localhost:~$ ls
 5. Documents Pictures linux_example
 
+# Some Useful Commands
+
+**man — Print manual or get help for a command**
+
+- The man command is your manual and is very useful when you need to figure out what a command does. For example, if you didn’t know what the command rmdir does, you could use the man command to find that out.
+
+**less — view the contents of a text file**
+
+- The less command allows you to view files without opening an editor. It’s faster to use, and there’s no chance of you inadvertently modifying the file.
+
+**compgen — Shows all available commands, aliases, and functions**
+
+- compgen is a handy command when you need to reference all available commands, aliases, and functions.
+
+
 # Conclusion
 
 
