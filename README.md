@@ -1,25 +1,30 @@
 <!-- bash commands cheatsheet -->
 
 # Bash
-- Bash allows users to provide commands through which the user can specify what they want to do. Before providing the commands, bash displays a prompt, as you open the command line (in Linux and macOS), such as the one below.
+- Computers provide two kinds of interfaces to the user:
+
+Graphical User Interface (GUI), and
+text-based interfaces (through command line or terminal)
+These interfaces allow you to navigate through the operating system and file system. In text-based interfaces, a command line interpreter or shell is used to interpret the given commands by the user.
+Bash allows users to provide commands through which the user can specify what they want to do. Before providing the commands, bash displays a prompt, as you open the command line (in Linux and macOS), such as the one below.
 
     user@localhost:~$
 
 - This prompt would typically state the current username with the hostname of the system. By default, the current directory of the terminal will be the user's root (or home) directory.
 
-**echo**
+**echo-print**
 - echo is the most basic command in bash, which displays its arguments on standard output (on the terminal).
 1. user@localhost:~$ echo "Hello World!"
 2. Hello World!
 3. user@localhost:~$ echo Hello World!
 4. Hello World!
 
-**pwd**
+**pwd- print working directory**
 - pwd is a command that stands for Print Working Directory. It displays your current working directory as output.
 1. user@localhost:~$ pwd
 2. /home/user
 
-**ls**
+**ls — List directory contents**
 - ls is a command short for list. It lists down the contents of a directory. By default, it lists the contents of the current working directory. From the example introduced at the start of the section, if we list down the contents of our current directory we get
 1. user@localhost:~$ ls
 2. Documents Pictures Videos
@@ -29,7 +34,7 @@
 1. user@localhost:~$ ls -a
 2. Documents Pictures .temp_file Videos .webpage
 
-**cd**
+**cd- change directory**
 - cd is a command to change directory. By providing a path along with this command, we can change the current directory to a different directory. This command does not give an output and only changes the directory. You can later use ls to display the directory contents to check that the current directory has been changed.
 1. user@localhost:~$ cd Documents
 2. user@localhost:~$ ls
@@ -43,28 +48,28 @@ In the above example, we used a shortcut .. to change back to the parent directo
 # Bash Commands for File Modifications
 Working with files means modifying them in any capacity. Renaming, moving, creating, and deleting new files are the basic operations when working with files. Let's have a look at these operations using bash in this section.
 
-**mkdir**
+**mkdir- make directory**
 - mkdir is a command short for Make Directory. It creates a new directory with the specified name.
 
 1. user@localhost:~$ mkdir BashTutorial
 2. user@localhost:~$ ls
 3. BashTutorial Documents Pictures Videos
 
-**rmdir**
+**rmdir- remove directory**
 - rmdir is a command for Remove Directory. It removes the specified directory. It should be noted that the directory to be removed must be empty or the terminal will throw an error.
 
 1. user@localhost:~$ mkdir BashTutorial
 2. user@localhost:~$ ls
 3. BashTutorial Documents Pictures Videos
 
-**touch**
+**touch- create blank file**
 - touch is a command used for creating blank files. This command only creates a blank file and does not add anything to it.
 
 1. user@localhost:~$ touch Newfile
 2. user@localhost:~$ ls
 3. Documents Newfile Pictures Videos
 
-**rm**
+**rm- remove file**
 
 rm is the command for removing files. Similar to rmdir, this action cannot be undone so careful use is recommended.
 
@@ -81,7 +86,7 @@ rm is the command for removing files. Similar to rmdir, this action cannot be un
 4. user@localhost:~$ ls
 5. Documents Pictures 
 
-**mv**
+**mv- moive file or directory**
 - mv is a command used to move a file or a directory. We can specify this using the syntax below, where source and destination are paths to the file or directory that needs to be moved.
 
 1. user@localhost:~$ ls
