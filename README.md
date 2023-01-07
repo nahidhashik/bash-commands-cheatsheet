@@ -64,6 +64,22 @@ Working with files means modifying them in any capacity. Renaming, moving, creat
 2. user@localhost:~$ ls
 3. Documents Newfile Pictures Videos
 
+**rm**
+rm is the command for removing files. Similar to rmdir, this action cannot be undone so careful use is recommended.
+
+1. user@localhost:~$ rm Newfile
+2. user@localhost:~$ ls
+3. Documents Pictures Videos
+
+**rm -r**
+- A helpful option available for rm is -r. Adding this option allows us to remove non-empty directories with ease, as it recursively goes through all the files and sub-directories inside a directory and deletes them.
+
+1. user@localhost:~$ rmdir Videos
+2. rmdir: failed to remove 'Videos': Directory not empty
+3. user@localhost:~$ rm -r Videos
+4. user@localhost:~$ ls
+5. Documents Pictures 
+
 
 
 
