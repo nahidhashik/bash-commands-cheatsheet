@@ -2,9 +2,9 @@
 
 # Bash
 - Computers provide two kinds of interfaces to the user:
+1. Graphical User Interface (GUI), and
+2. text-based interfaces (through command line or terminal)
 
-Graphical User Interface (GUI), and
-text-based interfaces (through command line or terminal)
 These interfaces allow you to navigate through the operating system and file system. In text-based interfaces, a command line interpreter or shell is used to interpret the given commands by the user.
 Bash allows users to provide commands through which the user can specify what they want to do. Before providing the commands, bash displays a prompt, as you open the command line (in Linux and macOS), such as the one below.
 
