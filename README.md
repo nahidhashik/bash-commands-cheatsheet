@@ -1,5 +1,7 @@
 <!-- bash commands cheatsheet -->
 
+![gnu_bash_logo_icon_170080](https://user-images.githubusercontent.com/37225357/211147360-cc40742c-32c2-46a8-9271-78ae0c9522da.png)
+
 # Bash
 - Computers provide two kinds of interfaces to the user:
 1. Graphical User Interface (GUI), and
