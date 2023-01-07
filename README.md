@@ -12,7 +12,7 @@ Bash allows users to provide commands through which the user can specify what th
 
 This prompt would typically state the current username with the hostname of the system. By default, the current directory of the terminal will be the user's root (or home) directory.
 
-# Basic Commands
+# Basic Commands for Bash
 
 **echo-print**
 - echo is the most basic command in bash, which displays its arguments on standard output (on the terminal).
